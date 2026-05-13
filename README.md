@@ -8,3 +8,6 @@ To run the backend of the application, change the directory to image-report-app/
 ```
 uvicorn main:app --reload --port 8000
 ```
+
+
+Make sure to get your own API key from https://aistudio.google.com/. Happy learning!
