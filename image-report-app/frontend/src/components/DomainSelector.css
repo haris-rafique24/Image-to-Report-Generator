@@ -1,0 +1,38 @@
+.domain-row {
+  display: flex;
+  gap: 7px;
+  padding: 14px 32px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.domain-btn {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.domain-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.domain-btn.active {
+  border-color: var(--accent);
+  background: rgba(124, 106, 247, 0.12);
+  color: var(--accent);
+}
+
+.domain-icon {
+  font-size: 12px;
+}
